@@ -1,0 +1,161 @@
+@charset "utf-8";
+/*-------------------css reset--------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+outline: 0; 
+font-weight:normal; 
+font-style: inherit; 
+font-size: 100%; 
+font-family: inherit; 
+vertical-align: baseline; 
+} 
+:focus { 
+outline: 0; 
+} 
+table { 
+border-collapse: collapse; 
+border-spacing: 0; 
+} 
+caption, th, td { 
+text-align: left; 
+font-weight: normal; 
+} 
+a img, iframe { 
+border: none; 
+}
+ul,ol{ 
+list-style: none; 
+}
+input, textarea, select, button { 
+font-size: 100%; 
+font-family: inherit; 
+} 
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+/*------------------- 视觉隐藏--------------------------*/
+.vh { 
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	height: 1px; 
+	margin: -1px; 
+	overflow: hidden; 
+	padding: 0; 
+	position: absolute; 
+	width: 1px; 
+}
+/*------------------- 图片替换--------------------------*/
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+/*-------------------公共--------------------------*/
+body{font-size:14px; line-height:1; font-family:'宋体',Arial, Helvetica, sans-serif;color:#333;}
+a{text-decoration:none;color:#333;}
+a:hover{color:red;}
+.fl{float:left; display:inline;}
+.fr{float:right;display:inline;}
+strong,h1,h2,h3,h4,dt,h1 a,h2 a,h3 a,h4 a{font-weight:bold;}
+.h{position:relative;}
+.hr{position:absolute; right:0; top:2px;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl,.li-fl li{float:left; display:inline;}
+/*-------------------文章模块--------------------------*/
+.article h3{ text-align:center;}
+.article p {text-indent:2em; line-height:1.5;}
+/*-------------------新闻列表模块--------------------------*/
+.list li{line-height:1.5;}
+.list2 li{float:left; display:inline; width:50%; line-height:1.5;}
+/*-------------------图片列表模块--------------------------*/
+.img dl{float:left;display:inline;}
+.img dd{*font-size: 0;}
+.img dt{text-align:center; margin-top: 5px;}
+/*-------------------选项卡模块--------------------------*/
+.tab .h li{float:left; display:inline;}
+.tab .b{display:none;}
+.tab .active{display:block;}
+/*-------------------数字幻灯模块--------------------------*/
+.slider{ position:relative; height:283px; overflow:hidden}
+.slider .b{ padding:0;}
+.slider .f{position:absolute; right:5px; bottom:5px; z-index:999}
+.slider .f a{background:#000; margin:0 5px; display:inline-block; padding:0 3px; color:#fff}
+.slider .f .activeSlide{background:red;}
+/*-------------------布局--------------------------*/
+body{background:url(../img/body.png) repeat-x 0 33px #F0EFEF;}
+#h{background:url(../img/h.jpg) no-repeat center top; height:376px;}
+.w{width:984px; margin:0 auto; padding:10px 8px; background:#fff;}
+#b .r1 .c1{width:300px; margin-right:7px;}
+#b .r1 .c2{width:365px;}
+#b .r1 .c3{width:299px;}
+#b .h{margin:0;}
+#b .r1{margin-bottom:15px;}
+/*-------------------公共--------------------------*/
+.ma .h{height:25px; line-height:25px; background:url(../img/ma-h.jpg) repeat-x;}
+.ma h2{color:#fff; font-weight:bold; padding-left:56px; background:url(../img/ma-h2.png) no-repeat left center;}
+.ma .b{padding:10px 0 10px 19px;}
+/*-------------------模块m1--------------------------*/
+.m1 .focusBox {width: 300px; }
+.m1 .focusBox .pic img { width: 300px;}
+.m1 .focusBox .num li{width: 20px; height: 20px; line-height: 20px; margin-right: 2px;}
+.m1 .focusBox .num li span { background:#B9CADA;}
+.m1 .focusBox .num li.on a,.focusBox .num a:hover{ background:#12679D;  }
+/*-------------------模块m2--------------------------*/
+.m2{height:240px; background:#FEEDFD;}
+.m2 li{line-height:24px; background:url(../img/m2-li.png) left center no-repeat; padding-left:12px;}
+.m2 li a{color:#0F0F0F;}
+/*-------------------模块m3--------------------------*/
+
+/*-------------------模块m4--------------------------*/
+.m4 h3{height:50px; line-height:50px; font-size:24px; color:#232323; margin-bottom:15px;}
+.m4 p{line-height:22px;}
+/*-------------------模块m5--------------------------*/
+
+/*-------------------模块m6--------------------------*/
+
+/*-------------------模块m7--------------------------*/
+
+/*-------------------模块m8--------------------------*/
+
+/*-------------------模块m9--------------------------*/
+
+/*-------------------模块m10--------------------------*/
+
+/*-------------------模块m11--------------------------*/
+
+/*-------------------模块m12--------------------------*/
+
+/*-------------------模块m13--------------------------*/
+
+/*-------------------模块m14--------------------------*/
+
+/*-------------------模块m15--------------------------*/
+
+/*-------------------模块m16--------------------------*/
+
+/*-------------------模块m17--------------------------*/
